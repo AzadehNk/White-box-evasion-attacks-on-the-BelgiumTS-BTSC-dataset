@@ -14,7 +14,7 @@ This project is used [Belgium traffic sign classification (BTSC)](https://btsd.e
 
 ## Codes
 The following jypyter notbook have the deep learning and attack models implemented in Pytorch.
-First, we trained VGG16 and ResNet50 models on the BTSC dataset. Then, we applied four attacks to create non-targeted adversarial examples using the test set, by using five perturbation magnitudes( epsilons = [0, 5/255, 10/255, 20/255, 50/255]. In the third step, we created targeted white-box evasion attacks using FGSM, PGD, DeepFool, and arlini & Wagner l2 attacks. 
+First, we trained VGG16 and ResNet50 models on the BTSC dataset. Then, we applied four attacks to create non-targeted adversarial examples using the test set, by using five perturbation magnitudes( epsilons = [0, 5/255, 10/255, 20/255, 50/255]. In the third step, we created targeted white-box evasion attacks using FGSM, PGD, DeepFool, and arlini & Wagner l2 attacks. https://github.com/AzadehNk/White-box-evasion-attacks-on-the-BelgiumTS-BTSC-dataset/blob/main/ADML_Final_Project.ipynb
 
 ## Citation
 This project is based on an assignment for [Adversarial Machine Learning course (CS 404-504) at Computer Science Department at University of Idaho](https://www.webpages.uidaho.edu/vakanski/CS_504.html)
